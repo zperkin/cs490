@@ -1,7 +1,9 @@
-sudo apt-get update
+#!/bin/bash
 
-sudo apt-get install htop
-sudo apt-get install screen
+sudo apt-get update -y
+
+sudo apt-get install htop -y
+sudo apt-get install screen -y
 
 mkdir -p ~/miniconda3
 wget https://repo/anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
